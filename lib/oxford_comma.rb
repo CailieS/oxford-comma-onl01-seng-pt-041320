@@ -8,3 +8,4 @@ def oxford_comma(array)
     elsif array.join (",")
   else array.join
 end
+end
