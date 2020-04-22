@@ -6,9 +6,9 @@ def oxford_comma(array)
     array.join
     
   elsif array.length == 2
-  var="hello"
+  
   binding.pry
-  var2='bye'
+ 
   array[-1]<< "and"
    
   elsif array.length >= 2
