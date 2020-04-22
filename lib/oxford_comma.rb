@@ -6,7 +6,7 @@ def oxford_comma(array)
     array.join
     
   elsif array.length == 2
-  
+  return "#{array[0]} and #{array[1]}"
   binding.pry
  
   array[-1]<< "and"
