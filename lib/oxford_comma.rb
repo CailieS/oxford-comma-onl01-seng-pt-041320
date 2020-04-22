@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  return
+  return array.join
     elsif array.amount == 2
   elsif array.amount >= 3
     array[-1]  = "and" << array [-1]
