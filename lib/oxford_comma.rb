@@ -10,9 +10,9 @@ def oxford_comma(array)
   return "#{array[0]} and #{array[1]}"
 
   elsif array.length > 2
-  array.insert(, "and")
+  array[-1].insert(0, "and")
   binding.pry
-  array[-2] >> ","
+ 
 end
 
 end
