@@ -1,4 +1,4 @@
 def oxford_comma(array)
-  array.split
+  if array == 1
 
 end
